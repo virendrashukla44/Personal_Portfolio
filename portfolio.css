@@ -1,0 +1,593 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    
+}
+.header-elements{
+    display: flex;
+    color: aqua;
+    float: right;
+}
+.category{
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: Verdana;
+    cursor: pointer;
+    
+}
+.name{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: cyan;
+    font-size: 16px;
+    font-family: Verdana;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.name:hover{
+    background-color: rgb(226, 37, 24);
+    border-radius: 10px;
+    color: black;
+}
+.category:active{
+    transform: translateY(3px);
+}
+.home{
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+}
+.heading-1{
+    text-align: center;
+    font-size: 35px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.tagline{
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: italic;
+}
+.img-1{
+    padding-left: 43%;
+    padding-top: 15px;
+}
+.img-2{
+  padding-left: 27%;
+  padding-top: 50px;
+  padding-bottom: 0px;
+
+}
+.content-1{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(73, 37, 233);
+    z-index: 1;
+}
+.heading-2{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight: normal;
+    padding-top: 90px;
+}
+.info-1{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 19px;
+    font-family: Verdana;
+    font-weight: normal;
+    padding-top: 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.Project-1{
+ width: 25%;
+ height: 435px;
+ background-image: linear-gradient(90deg, rgb(55, 82, 237) 20%, rgb(41, 143, 233) 80%);
+ display: block;
+ border: 3px solid black;
+ border-radius: 20px;
+ margin-top: 50px;
+ margin-left: 10%;
+ cursor: pointer;
+ margin-bottom: 50px;
+
+}
+.img-3{
+    padding-left: 36%;
+}
+.topic-1{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic ;
+}
+.Pd-1{
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: black;
+    max-width: fit-content;
+    max-height: fit-content;
+    background: linear-gradient(45deg, rgb(243, 105, 55) 20%, rgb(243, 171, 55) 80%);
+    margin-left: 5px;
+}
+.info-2{
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: Arial;
+    color: aliceblue;
+}
+ul li{
+    color: antiquewhite;
+    font-family: Arial;
+}
+h3{
+    margin-top: 100px;
+    display: inline-flex;
+    font-size: 35px;
+    font-family: Tahoma;
+    font-weight: normal;
+}
+.h3{
+    padding-left: 10px;
+    max-width: fit-content;
+    max-height: fit-content;
+   cursor: pointer;
+    padding: 10px;
+    color: black;
+}
+.h3:hover{
+background: linear-gradient( rgb(238, 44, 44), rgb(12, 65, 197));
+color: yellow;
+border-radius: 10px;
+}
+
+.Projects{
+    display: flex;
+    gap: 40px;
+    background: repeating-linear-gradient(45deg, rgba(134, 133, 128, 0.929) 20%, rgb(188, 179, 179) 80%);
+}
+
+
+.Project-2{
+    width: 25%;
+ height: 435px;
+ background-image: linear-gradient(90deg, rgb(55, 82, 237) 20%, rgb(41, 143, 233) 80%);
+ display: block;
+ border: 3px solid black;
+ border-radius: 20px;
+
+ margin-top: 50px;
+ margin-bottom: 50px;
+ cursor: pointer;
+}
+.topic-2{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic ;
+}
+.PD-2{
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: black;
+    max-width: fit-content;
+    max-height: fit-content;
+    background: linear-gradient(45deg, rgb(243, 105, 55) 20%, rgb(243, 171, 55) 80%);
+    margin-left: 5px;
+}
+.info-3{
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: Arial;
+    color: aliceblue;
+}
+.img-4{
+    padding-left: 36%;
+}
+.Project-3{
+    width: 25%;
+ height: 435px;
+ background-image: linear-gradient(90deg, rgb(55, 82, 237) 20%, rgb(41, 143, 233) 80%);
+ display: block;
+ border: 3px solid black;
+ border-radius: 20px;
+ cursor: pointer;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+.topic-3{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic ;
+}
+.PD-3{
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: black;
+    max-width: fit-content;
+    max-height: fit-content;
+    background: linear-gradient(45deg, rgb(243, 105, 55) 20%, rgb(243, 171, 55) 80%);
+    margin-left: 5px;
+}
+.info-4{
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: Arial;
+    color: aliceblue;
+    font-size: 15px;
+}
+.img-5{
+    padding-left: 36%;
+}
+.Project-1:active, .Project-2:active, .Project-3:active{
+    transform: translateY(5px);
+}
+.Project-link{
+ font-size: 25px;
+ font-family: Helvetica;
+ font-weight: bold;
+ text-align: center;
+ margin-top: 35px;   
+}
+.Git{
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+}
+.Git:active{
+    transform: translateY(7px);
+    color: red;
+    cursor: pointer;
+}
+.box1 {
+    position: relative;
+    width: 45%;
+    background-color: white;
+    height: 70vh;
+    top: 30px;
+    left: 50px;
+}
+
+.info2 {
+    height: 10vh;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px 5px;
+}
+
+.info3 {
+    padding-top: 0px;
+    padding-left: 5px;
+}
+
+.info3 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info3 p span {
+    position: relative;
+}
+
+.info2 .bar {
+    margin-top: 10px;
+    height: 5px;
+    width: 100%;
+    background: rgb(212, 194, 162);
+    position: relative;
+
+}
+
+.info2 .bar1::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(255, 115, 0);
+    width: 90%;
+}
+
+.info2 .bar2::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(255, 115, 0);
+    width: 70%;
+}
+
+.info2 .bar3::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(255, 115, 0);
+    width: 40%;
+}
+
+.info2 .bar4::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(255, 115, 0);
+    width: 50%;
+}
+.Skill-heading{
+ padding-left: 20px;
+ font-family: sans-serif;
+ font-size: 35px;
+ font-weight: bold;
+}
+.tagline-2{
+    padding-left: 20px;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    color: blue;
+    font-weight: bold;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.language {
+    width: 50%px;
+    height: 100px;
+    float: right;
+}
+
+.language .img {
+    position: relative;
+    height: 110px;
+    transform: rotate(30deg);
+}
+
+.language .imga1 {
+    left: 200px;
+    top: 50px;
+}
+
+.language .imga2 {
+ left: 400px;
+ top: 50px;
+}
+
+.language .imga3 {
+    top: 350px;
+}
+
+.language .imga4 {
+    top: 350px;
+    left: 230px;
+}
+.language .img:hover {
+    transform: rotateY(0deg);
+}
+.About{
+    padding-top: 10px;
+}
+.headingQ{
+    margin-left: 60px;
+    font-size: 27px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.about{
+    margin-left: 60px;
+    font-size: 35px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.currently{
+   text-align: center;
+}
+.info-5, .info-6, .info-7{
+    font-family: Tahoma;
+    font-size: 17px;
+    color: rgb(255, 45, 45);
+    font-weight: bold;
+}
+.s1{
+    color: black;
+}
+.info-8{
+    font-family: Tahoma;
+    font-size: 17px;
+    color: rgb(255, 45, 45);
+    font-weight: bold;
+}
+.s2{
+    color: black;
+}
+.HSC{
+text-align: center;
+}
+.CBSE{
+   text-align: center;
+}
+.info-9{
+    font-family: Tahoma;
+    font-size: 17px;
+    color: rgb(255, 45, 45);
+    font-weight: bold; 
+}
+.s3{
+    color: black;
+}
+.About{
+    width: 100%;
+    height: 450px;
+}
+.contain{
+    width: fit-content;
+    height: fit-content;
+    background: repeating-linear-gradient(60deg, rgb(94, 209, 255),rgb(255, 246, 81));
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.Contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Email{
+    width: 25%;
+    height: 200px;
+    background: whitesmoke;
+    margin-left: 15%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.img-s1{
+    padding-top: 20px;
+}
+.Call{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    height: 200px;
+    background: whitesmoke;
+    margin-left: 50px;
+
+    text-align: center;
+}
+.img-s2{
+    padding-top: 20px;
+}
+.Address{
+    width: 25%;
+    height: 200px;
+    background: whitesmoke;
+    margin-left: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.img-s3{
+    padding-top: 20px;
+}
+.T1{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+     color: black;
+    font-style: italic;
+}
+.t2{
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: normal;
+    color: rgb(156, 154, 154);
+}
+.I1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 270px;
+}
+.I2, .I3, .I4{
+    margin-left: 40%;
+    margin-right: 25%;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.I4{
+    height: 70px;
+    padding-top: 0px;
+}
+ button{
+    margin-left: 55%;
+    margin-right: 30%;
+    width: fit-content;
+    background: repeating-linear-gradient(45deg, rgb(235, 254, 63), rgb(27, 208, 217));
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ button:hover{
+    background: red;
+    color: aliceblue;
+    cursor: pointer;
+ }
+ .icons{
+    display: flex;
+    font-size: 25px;
+    width: 100%;
+    height: 90px;
+    background: rgb(195, 189, 189);
+ }
+ .icu1{
+    padding-left: 25px;
+    padding-right: 10px;
+    font-size: 30px;
+    padding-top: 10px;
+    color: red;
+ }
+ .icu2,.icu3{
+    padding-right: 10px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: red;
+ }
+
+ .icu1:hover, .icu2:hover, .icu3:hover{
+    color: black;
+ }
+
+.icu1:active, .icu2:active, .icu3:active{
+    transform: translateY(7px);
+}
+ .last-text{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(195, 189, 189);;
+ }
+ .end{
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-style: oblique;
+ }
